@@ -28,5 +28,5 @@ class TestContact(unittest.TestCase):
         self.assertEqual(self.new_contact.email,"leahgakii74@gmail.com")
 
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
