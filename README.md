@@ -1,4 +1,4 @@
-<!-- #  PASSWORD LOCKER.
+#  PASSWORD LOCKER.
 ##  8th April,2019
 ## Authors
   Leah Gakii
@@ -34,4 +34,3 @@ contact me through: leahgakii74@gmail.com
 ## License
 MIT License
 Copyright (c) 2019 Leah
- -->
