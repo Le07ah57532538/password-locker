@@ -75,31 +75,31 @@
 if __name__ == '__main__':
     unittest.main()
 
-    # def test_find_contact_by_number(self):
-    #     '''
-    #     test to check if we can find a contact by phone number and display information
-    #     '''
+    def test_find_contact_by_number(self):
+        '''
+        test to check if we can find a contact by phone number and display information
+        '''
 
-    #     self.new_contact.save_contact()
-    #     test_contact = Contact("Test","user","0757532538","test@user.com") # new contact
-    #     test_contact.save_contact()
+        self.new_contact.save_contact()
+        test_contact = Contact("Test","user","0757532538","test@user.com") # new contact
+        test_contact.save_contact()
 
-    #     found_contact = Contact.find_by_number("0711223344")
+        found_contact = Contact.find_by_number("0711223344")
 
-    #     self.assertEqual(found_contact.email,test_contact.email)
+        self.assertEqual(found_contact.email,test_contact.email)
 
     @classmethod
-    def find_by_number(cls,number):
-        '''
-        Method that takes in a number and returns a contact that matches that number.
+    # def find_by_number(cls,number):
+    #     '''
+    #     Method that takes in a number and returns a contact that matches that number.
 
-        Args:
-            number: Phone number to search for
-        Returns :
-            Contact of person that matches the number.
-        '''
+    #     Args:
+    #         number: Phone number to search for
+    #     Returns :
+    #         Contact of person that matches the number.
+    #     '''
 
-        for contact in cls.contact_list:
-            if contact.phone_number == number:
-                return contact
+    #     for contact in cls.contact_list:
+    #         if contact.phone_number == number:
+    #             return contact
                 
