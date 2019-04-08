@@ -10,8 +10,7 @@ The application enables a user to store their existing account credentials in th
 | Behaviour | Input | Output |
 | :-------: | :---: | :----: |
 |Creation of an account|Input name,password and email |Information entered|
-|Login into the appliccation |Input information required  |Displayed user details|
-
+|Login into the appliccation |Input information required  |Displayed user details|Le07
 |Delete an account |-  |Account not available|
 
  ##  Setup/Installation Requirements
