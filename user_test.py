@@ -1,5 +1,5 @@
-# import unittest # Importing the unittest module
-# from contact import Contact # Importing the contact class
+import unittest # Importing the unittest module
+from contact import Contact # Importing the contact class
 
 class TestContact(unittest.TestCase):
 
@@ -10,7 +10,7 @@ class TestContact(unittest.TestCase):
         unittest.TestCase: TestCase class that helps in creating test cases
     '''
 
-    def setUp(self):
+    # def setUp(self):
         '''
         Set up method to run before each test cases.
         '''
