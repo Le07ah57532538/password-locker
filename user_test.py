@@ -10,7 +10,7 @@ class TestContact(unittest.TestCase):
         unittest.TestCase: TestCase class that helps in creating test cases
     '''
 
-    # def setUp(self):
+    def setUp(self):
         '''
         Set up method to run before each test cases.
         '''
@@ -28,5 +28,5 @@ class TestContact(unittest.TestCase):
         self.assertEqual(self.new_contact.email,"leahgakii74@gmail.com")
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
